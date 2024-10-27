@@ -19,7 +19,7 @@ export default function SectionSeven() {
               <div>
                 <a
                   href="/"
-                  className="inline-flex items-center justify-center h-12 px-6 font-semibold tracking-wide text-teal-900 transition duration-200 rounded shadow-md bg-teal-400 focus:shadow-outline focus:outline-none"
+                  className="inline-flex items-center justify-center h-12 px-6 font-semibold tracking-wide text-white transition duration-200 rounded shadow-md bg-green-600 focus:shadow-outline focus:outline-none"
                 >
                   Request Demo
                 </a>

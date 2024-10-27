@@ -17,7 +17,7 @@ export const Nav = () => {
           >
             <img
               src="https://store-media.mpowerpromo.com/5e4ef2d67141a025da688296/assets/mpower_log_text-1608679944014.png"
-              className="w-24"
+              className="w-48"
             />
           </a>
           <ul className="flex items-center hidden space-x-8 lg:flex">
@@ -26,9 +26,9 @@ export const Nav = () => {
                 href="/"
                 aria-label="Our product"
                 title="Our product"
-                className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                className="font-medium tracking-wide text-blue-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
-                Product
+                Platform
               </a>
             </li>
             <li>
@@ -36,9 +36,9 @@ export const Nav = () => {
                 href="/"
                 aria-label="Our product"
                 title="Our product"
-                className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                className="font-medium tracking-wide text-blue-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
-                Features
+                Templates
               </a>
             </li>
             <li>
@@ -46,9 +46,9 @@ export const Nav = () => {
                 href="/"
                 aria-label="Product pricing"
                 title="Product pricing"
-                className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                className="font-medium tracking-wide text-blue-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
-                Pricing
+                Solutions
               </a>
             </li>
             <li>
@@ -56,21 +56,31 @@ export const Nav = () => {
                 href="/"
                 aria-label="About us"
                 title="About us"
-                className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                className="font-medium tracking-wide text-blue-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
-                About us
+                Pricing
               </a>
             </li>
           </ul>
-          <ul className="flex items-center hidden space-x-8 lg:flex">
+          <ul className="flex items-center hidden space-x-1 lg:flex">
             <li>
               <a
                 href="/"
-                className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                className="inline-flex items-center justify-center h-10 px-4 font-medium tracking-wide text-blue-700 transition duration-200 rounded shadow-md bg-white focus:shadow-outline focus:outline-none"
                 aria-label="Sign up"
                 title="Sign up"
               >
-                Sign up
+                Sign In
+              </a>
+            </li>
+            <li>
+              <a
+                href="/"
+                className="inline-flex items-center justify-center h-10 px-4 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-blue-700 focus:shadow-outline focus:outline-none"
+                aria-label="Sign up"
+                title="Sign up"
+              >
+                Request Demo
               </a>
             </li>
           </ul>

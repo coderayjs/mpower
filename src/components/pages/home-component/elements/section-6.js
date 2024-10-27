@@ -1,3 +1,4 @@
+import { ArrowRightAltSharp, CheckCircle } from "@mui/icons-material";
 import React from "react";
 
 export default function SectionSix() {
@@ -17,31 +18,45 @@ export default function SectionSix() {
           <div className="flex flex-col justify-center">
             <div className="pb-4 mb-4 border-b">
               <h6 className="mb-2 font-semibold leading-5">
+                <CheckCircle className="text-green-600 mr-3" />
                 Start selling promo and apparel online with your own online
                 store with over 100,000 configurable items.
               </h6>
             </div>
             <div className="pb-4 mb-4 border-b">
               <h6 className="mb-2 font-semibold leading-5">
+                <CheckCircle className="text-green-600 mr-3" />
                 Create UNLIMITED company stores that look great and are easy to
                 build and maintain.
               </h6>
             </div>
             <div className="pb-4 mb-4 border-b">
               <h6 className="mb-2 font-semibold leading-5">
+                <CheckCircle className="text-green-600 mr-3" />
                 Sell products with real-time inventory from suppliers.
               </h6>
             </div>
             <div className="pb-4 mb-4 border-b">
               <h6 className="mb-2 font-semibold leading-5">
+                <CheckCircle className="text-green-600 mr-3" />
                 Process credit card or eCheck payments.
               </h6>
             </div>
             <div>
               <h6 className="mb-2 font-semibold leading-5">
+                <CheckCircle className="text-green-600 mr-3" />
                 Design pages in minutes using our advanced page builder.
               </h6>
             </div>
+
+            <p
+              href="#"
+              aria-label="View Item"
+              className=" text-md text-blue-700 mt-5"
+            >
+              Learn more about our application
+              <ArrowRightAltSharp />
+            </p>
           </div>
 
           <div className="grid grid-cols-2 gap-5">

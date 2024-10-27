@@ -1,3 +1,5 @@
+import { ArrowRightAltSharp } from "@mui/icons-material";
+
 export default function SectionTwo() {
   return (
     <>
@@ -28,6 +30,15 @@ export default function SectionTwo() {
                     <br />
                     Accounting & commissions.
                   </p>
+
+                  <p
+                    href="#"
+                    aria-label="View Item"
+                    className="mt-10 text-sm text-blue-700"
+                  >
+                    Learn more about our application
+                    <ArrowRightAltSharp />
+                  </p>
                 </div>
               </div>
             </div>
@@ -57,6 +68,15 @@ export default function SectionTwo() {
                     <br />
                     Print on demand.
                   </p>
+
+                  <p
+                    href="#"
+                    aria-label="View Item"
+                    className="mt-10 text-sm text-blue-700"
+                  >
+                    Learn more about our application
+                    <ArrowRightAltSharp />
+                  </p>
                 </div>
               </div>
             </div>
@@ -85,6 +105,15 @@ export default function SectionTwo() {
                     Automatically track orders.
                     <br />
                     Sync with accounting software.
+                  </p>
+
+                  <p
+                    href="#"
+                    aria-label="View Item"
+                    className="mt-10 text-sm text-blue-700"
+                  >
+                    Learn more about our application
+                    <ArrowRightAltSharp />
                   </p>
                 </div>
               </div>

@@ -1,3 +1,5 @@
+"use client";
+
 import SectionOne from "./elements/section-1";
 import SectionTwo from "./elements/section-2";
 import SectionThree from "./elements/section-3";
@@ -6,6 +8,7 @@ import SectionFive from "./elements/section-5";
 import SectionSix from "./elements/section-6";
 import SectionSeven from "./elements/section-7";
 import SectionEight from "./elements/section-8";
+import SectionNine from "./elements/section-9";
 
 export default function HomeComponent() {
   return (
@@ -19,6 +22,7 @@ export default function HomeComponent() {
 
       <SectionSeven />
       <SectionEight />
+      <SectionNine />
     </div>
   );
 }
