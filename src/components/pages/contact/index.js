@@ -1,6 +1,6 @@
 "use client";
-import SectionEight from "../home-component/elements/section-8";
-import SectionNine from "../home-component/elements/section-9";
+import SectionEight from "../home/elements/section-8";
+import SectionNine from "../home/elements/section-9";
 import SectionOne from "./elements/section-1";
 
 export default function ContactComponent() {

@@ -4,9 +4,9 @@ import SectionTwo from "./elements/section-2";
 import SectionThree from "./elements/section-3";
 import SectionFour from "./elements/section-4";
 import SectionFive from "./elements/section-5";
-import SectionSeven from "../home-component/elements/section-7";
-import SectionEight from "../home-component/elements/section-8";
-import SectionNine from "../home-component/elements/section-9";
+import SectionSeven from "../home/elements/section-7";
+import SectionEight from "../home/elements/section-8";
+import SectionNine from "../home/elements/section-9";
 
 export default function PlatformComponent() {
   return (

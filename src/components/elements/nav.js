@@ -75,7 +75,7 @@ export const Nav = () => {
             </li>
             <li>
               <a
-                href="/"
+                href="/contact"
                 className="inline-flex items-center justify-center h-10 px-4 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-blue-700 focus:shadow-outline focus:outline-none"
                 aria-label="Sign up"
                 title="Sign up"

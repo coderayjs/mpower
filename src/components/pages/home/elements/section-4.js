@@ -1,4 +1,5 @@
-import { CheckCircle } from "@mui/icons-material";
+import { ArrowRightAltSharp, CheckCircle } from "@mui/icons-material";
+import Link from "next/link";
 import React from "react";
 
 export default function SectionFour() {
@@ -35,6 +36,17 @@ export default function SectionFour() {
                 customers.
               </li>
             </ul>
+
+            <div className="mt-10">
+              <Link
+                href="/integrations"
+                aria-label="View Item"
+                className=" text-sm text-blue-700"
+              >
+                Learn more about our integrations
+                <ArrowRightAltSharp />
+              </Link>
+            </div>
           </div>
         </div>
       </div>
