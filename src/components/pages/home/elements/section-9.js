@@ -2,7 +2,7 @@ import React from "react";
 
 export default function SectionNine() {
   return (
-    <div className="max-w-2xl mx-auto text-center my-20">
+    <div className="max-w-2xl mx-auto text-center py-20">
       <h1 className="text-black text-5xl font-bold">Download</h1>
       <p className="text-black text-xl">
         Never miss a beat. Download our app and work on the go with all the same

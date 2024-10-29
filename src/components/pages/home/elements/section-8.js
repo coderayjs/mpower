@@ -16,7 +16,7 @@ export default function SectionEight() {
                 your distributorship.
               </p>
             </div>
-            <form className="flex flex-col items-center w-full mb-4 md:flex-row md:px-16">
+            <form className="flex flex-col items-center w-full md:flex-row md:px-16">
               <input
                 placeholder="Email"
                 required=""

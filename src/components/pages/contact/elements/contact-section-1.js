@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function SectionOne() {
+export default function ContactSectionOne() {
   return (
     <div className="mx-auto text-center max-w-4xl py-20 space-y-5">
       <h1 className="text-4xl font-bold text-black">Contact Us</h1>
