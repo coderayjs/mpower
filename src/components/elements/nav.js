@@ -23,9 +23,7 @@ export const Nav = () => {
           <ul className="flex items-center hidden space-x-8 lg:flex">
             <li>
               <a
-                href="/"
-                aria-label="Our product"
-                title="Our product"
+                href="/platform"
                 className="font-medium tracking-wide text-blue-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
                 Platform
@@ -43,9 +41,9 @@ export const Nav = () => {
             </li>
             <li>
               <a
-                href="/"
-                aria-label="Product pricing"
-                title="Product pricing"
+                href="/solutions"
+                aria-label=""
+                title=""
                 className="font-medium tracking-wide text-blue-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
                 Solutions
@@ -53,9 +51,7 @@ export const Nav = () => {
             </li>
             <li>
               <a
-                href="/"
-                aria-label="About us"
-                title="About us"
+                href="/pricing"
                 className="font-medium tracking-wide text-blue-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
                 Pricing
@@ -157,12 +153,10 @@ export const Nav = () => {
                     <ul className="space-y-4">
                       <li>
                         <a
-                          href="/"
-                          aria-label="Our product"
-                          title="Our product"
+                          href="/platform"
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Product
+                          Platform
                         </a>
                       </li>
                       <li>
@@ -177,22 +171,18 @@ export const Nav = () => {
                       </li>
                       <li>
                         <a
-                          href="/"
-                          aria-label="Product pricing"
-                          title="Product pricing"
+                          href="/solutions"
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Pricing
+                          Solutions
                         </a>
                       </li>
                       <li>
                         <a
-                          href="/"
-                          aria-label="About us"
-                          title="About us"
+                          href="/pricing"
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          About us
+                          Pricing
                         </a>
                       </li>
                       <li>
