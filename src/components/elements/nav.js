@@ -85,7 +85,9 @@ export const Nav = () => {
                     <DropdownMenuItem>
                       <a href="/swagboxes">Swagboxes</a>
                     </DropdownMenuItem>
-                    <DropdownMenuItem>Presentations</DropdownMenuItem>
+                    <DropdownMenuItem>
+                      <a href="/presentations">Presentations</a>
+                    </DropdownMenuItem>
                     <DropdownMenuItem>Promo Standards</DropdownMenuItem>
                     <DropdownMenuItem>Integrations</DropdownMenuItem>
                     <DropdownMenuItem>Decorators</DropdownMenuItem>
