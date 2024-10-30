@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Button } from "@/components/ui/button";
+import { Button } from "../ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -15,7 +15,7 @@ import {
   DropdownMenuSubContent,
   DropdownMenuSubTrigger,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
+} from "../ui/dropdown-menu";
 
 export const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -79,8 +79,12 @@ export const Nav = () => {
                     <DropdownMenuItem>
                       <a href="/pod">Print on demand</a>
                     </DropdownMenuItem>
-                    <DropdownMenuItem>Product Ads</DropdownMenuItem>
-                    <DropdownMenuItem>Swagboxes</DropdownMenuItem>
+                    <DropdownMenuItem>
+                      <a href="/ads">Product Ads</a>
+                    </DropdownMenuItem>
+                    <DropdownMenuItem>
+                      <a href="/swagboxes">Swagboxes</a>
+                    </DropdownMenuItem>
                     <DropdownMenuItem>Presentations</DropdownMenuItem>
                     <DropdownMenuItem>Promo Standards</DropdownMenuItem>
                     <DropdownMenuItem>Integrations</DropdownMenuItem>
